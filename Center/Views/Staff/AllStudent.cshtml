@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Student>
+@{
+    ViewData["Title"] = "AllStudent";
+}
+<link href="../wwwroot/css/Icons.css" rel="stylesheet" />
+<link href="../wwwroot/css/Studrnt.css" rel="stylesheet" />
+<a asp-action="AddStudent" asp-controller="Staff" class="btn btn-primary addstudent w-50 text-center m-sm-5"><h2>Add Student </h2></a>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+@if (TempData["message"] != null)
+{
+ 
+    <script type="text/javascript">
+@*         toastr.success('الرساله ','العنوان بتاعها')
+        *@toastr.success('@TempData["message"]', 'Message')
+    </script>
+}
+<table class="table border-2">
+   
+    <thead>
+       
+            <th class="border text-center">Id</th>
+            <th class="border">Name</th>
+            <th class="border">Level</th>
+            <th class="border">Delete & Edit</th>
+
+     
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="border text-center">@item.Id</td>
+                <td class="border">@item.Name</td>
+                <td class="border">@item.Level</td>
+                <td class="border w-25">
+                    &nbsp;
+                    <a asp-controller="Staff" asp-action="DeleteStudent" asp-route-id="@item.Id">
+                        <i class="bi bi-trash btn btn-danger btn-sm"></i></a>
+                    
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                 
+                   <a asp-action="Edit" asp-controller="Staff" asp-route-id="@item.Id">
+                        <i class="bi bi-pen btn btn-success btn-sm"></i>
+                   </a>
+                   
+                </td>
+                
+
+            </tr>
+        }
+    </tbody>
+</table>
+

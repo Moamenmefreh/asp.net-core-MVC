@@ -1,0 +1,32 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "DeleteStudent";
+}
+@if (TempData["Failed"]!=null)
+{
+    <h2>@TempData["Failed"]</h2>
+}
+
+    <form method="post" class="form-control w-75">
+
+
+    <label asp-for="Id" class="form-control btn btn-primary m-2"></label>
+        <input asp-for="Id" class="form-control m-2" />
+        <span asp-validation-for="Id"></span>
+
+
+
+    <label asp-for="Name" class="form-control btn btn-primary m-2"></label>
+        <input asp-for="Name" class="form-control m-2" />
+        <span asp-validation-for="Name"></span>
+
+
+    <label asp-for="Level" class="form-control btn btn-primary m-2"></label>
+        <input asp-for="Level" class="form-control m-2" />
+        <span asp-validation-for="Level"></span>
+
+    <input type="submit" class="form-control btn btn-primary m-2" value="Delete" />
+    <a asp-action="AllStudent" asp-controller="Staff" class="form-control btn btn-info m-2">
+       Back To All Student </a>
+</form>
+

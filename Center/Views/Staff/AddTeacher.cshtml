@@ -1,0 +1,26 @@
+﻿@model Teacher
+@{
+    ViewData["Title"] = "AddTeacher";
+}
+@if (TempData["Success"] != null)
+{
+    <h2>@TempData["Success"]</h2>
+}
+<form method="post" class="form-control w-75">
+
+
+       <label asp-for="Name" class="form-control btn btn-primary m-2"></label>
+    <input asp-for="Name" class="form-control m-2" />
+    <span asp-validation-for="Name"></span>
+
+
+    <label asp-for="Specialization" class="form-control btn btn-primary m-2"></label>
+    <input asp-for="Specialization" class="form-control m-2" />
+    <span asp-validation-for="Specialization"></span>
+    <input type="submit" class="btn btn-primary m-2 w-25" value="Add Teacher" />
+
+
+
+</form>
+
+

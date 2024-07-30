@@ -1,0 +1,413 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Moamen\\Center\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\views\\staff\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\views\\staff\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\views\\staff\\allteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\views\\staff\\allteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\views\\staff\\allstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\views\\staff\\allstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\views\\staff\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\views\\staff\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\repository\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\repository\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\views\\staff\\deletestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\views\\staff\\deletestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\views\\staff\\addteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\views\\staff\\addteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\views\\staff\\editteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\views\\staff\\editteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\views\\staff\\deleteteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\views\\staff\\deleteteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\irepository\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\irepository\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\wwwroot\\css\\studrnt.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\wwwroot\\css\\studrnt.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\wwwroot\\css\\icons.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\wwwroot\\css\\icons.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|d:\\moamen\\center\\center\\migrations\\20240728223234_addtableteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380B9ED9-8828-4257-B9FF-290CBDB0FB2B}|Center\\Center.csproj|solutionrelative:center\\migrations\\20240728223234_addtableteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.css",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\wwwroot\\css\\Home.css",
+              "RelativeDocumentMoniker": "Center\\wwwroot\\css\\Home.css",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "Center\\wwwroot\\css\\Home.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-29T23:13:57.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "Center\\Controllers\\StaffController.cs",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "Center\\Controllers\\StaffController.cs",
+              "ViewState": "AQIAAIUAAAAAfGZmZmYWwJMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T21:05:33.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AllStudent.cshtml",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Views\\Staff\\AllStudent.cshtml",
+              "RelativeDocumentMoniker": "Center\\Views\\Staff\\AllStudent.cshtml",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Views\\Staff\\AllStudent.cshtml",
+              "RelativeToolTip": "Center\\Views\\Staff\\AllStudent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T21:12:36.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Center\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Center\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T09:17:01.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Views\\Staff\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Center\\Views\\Staff\\Edit.cshtml",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Views\\Staff\\Edit.cshtml",
+              "RelativeToolTip": "Center\\Views\\Staff\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T21:10:39.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Center\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Center\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:54:24.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Center\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Center\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAUAAAAAl5mZmZkBwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T09:16:36.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddStudent.cshtml",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Views\\Staff\\AddStudent.cshtml",
+              "RelativeDocumentMoniker": "Center\\Views\\Staff\\AddStudent.cshtml",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Views\\Staff\\AddStudent.cshtml",
+              "RelativeToolTip": "Center\\Views\\Staff\\AddStudent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T12:35:28.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AllTeacher.cshtml",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Views\\Staff\\AllTeacher.cshtml",
+              "RelativeDocumentMoniker": "Center\\Views\\Staff\\AllTeacher.cshtml",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Views\\Staff\\AllTeacher.cshtml",
+              "RelativeToolTip": "Center\\Views\\Staff\\AllTeacher.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T22:34:37.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Center\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Center\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T20:56:41.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Services.cs",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Repository\\Services.cs",
+              "RelativeDocumentMoniker": "Center\\Repository\\Services.cs",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Repository\\Services.cs",
+              "RelativeToolTip": "Center\\Repository\\Services.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAWwBAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T21:17:14.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteTeacher.cshtml",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Views\\Staff\\DeleteTeacher.cshtml",
+              "RelativeDocumentMoniker": "Center\\Views\\Staff\\DeleteTeacher.cshtml",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Views\\Staff\\DeleteTeacher.cshtml",
+              "RelativeToolTip": "Center\\Views\\Staff\\DeleteTeacher.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T10:12:06.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteStudent.cshtml",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Views\\Staff\\DeleteStudent.cshtml",
+              "RelativeDocumentMoniker": "Center\\Views\\Staff\\DeleteStudent.cshtml",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Views\\Staff\\DeleteStudent.cshtml",
+              "RelativeToolTip": "Center\\Views\\Staff\\DeleteStudent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T11:31:09.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddTeacher.cshtml",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Views\\Staff\\AddTeacher.cshtml",
+              "RelativeDocumentMoniker": "Center\\Views\\Staff\\AddTeacher.cshtml",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Views\\Staff\\AddTeacher.cshtml",
+              "RelativeToolTip": "Center\\Views\\Staff\\AddTeacher.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T10:19:26.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditTeacher.cshtml",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Views\\Staff\\EditTeacher.cshtml",
+              "RelativeDocumentMoniker": "Center\\Views\\Staff\\EditTeacher.cshtml",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Views\\Staff\\EditTeacher.cshtml",
+              "RelativeToolTip": "Center\\Views\\Staff\\EditTeacher.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T10:27:35.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Center\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Center\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T22:31:42.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Program.cs",
+              "RelativeDocumentMoniker": "Center\\Program.cs",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Program.cs",
+              "RelativeToolTip": "Center\\Program.cs",
+              "ViewState": "AQIAAAcAAADgMjMzMzMrwA4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T22:40:24.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IServices.cs",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\IRepository\\IServices.cs",
+              "RelativeDocumentMoniker": "Center\\IRepository\\IServices.cs",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\IRepository\\IServices.cs",
+              "RelativeToolTip": "Center\\IRepository\\IServices.cs",
+              "ViewState": "AQIAAAAAAAAAMzMzMzMbwAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T21:16:24.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240728223234_AddTableTeacher.cs",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Migrations\\20240728223234_AddTableTeacher.cs",
+              "RelativeDocumentMoniker": "Center\\Migrations\\20240728223234_AddTableTeacher.cs",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Migrations\\20240728223234_AddTableTeacher.cs",
+              "RelativeToolTip": "Center\\Migrations\\20240728223234_AddTableTeacher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T22:32:34.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Center\\Models\\Teacher.cs",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Models\\Teacher.cs",
+              "RelativeToolTip": "Center\\Models\\Teacher.cs",
+              "ViewState": "AQIAAAUAAABAAAAAAAAQwAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T22:29:50.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Studrnt.css",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\wwwroot\\css\\Studrnt.css",
+              "RelativeDocumentMoniker": "Center\\wwwroot\\css\\Studrnt.css",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\wwwroot\\css\\Studrnt.css",
+              "RelativeToolTip": "Center\\wwwroot\\css\\Studrnt.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-28T12:31:44.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\appsettings.json",
+              "RelativeDocumentMoniker": "Center\\appsettings.json",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\appsettings.json",
+              "RelativeToolTip": "Center\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-26T09:21:49.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Center\\Models\\Student.cs",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\Models\\Student.cs",
+              "RelativeToolTip": "Center\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:32:07.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Icons.css",
+              "DocumentMoniker": "D:\\Moamen\\Center\\Center\\wwwroot\\css\\Icons.css",
+              "RelativeDocumentMoniker": "Center\\wwwroot\\css\\Icons.css",
+              "ToolTip": "D:\\Moamen\\Center\\Center\\wwwroot\\css\\Icons.css",
+              "RelativeToolTip": "Center\\wwwroot\\css\\Icons.css",
+              "ViewState": "AQIAAMI1AADAmZmZmdkiwPo1AAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-28T11:05:14.552Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

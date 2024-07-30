@@ -1,0 +1,35 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "AddStudent";
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+@if (TempData["Failed"] != null)
+{
+   <script type="text/javascript">
+        toastr.error('There Are Problem in Inputs ', 'Sorry !')
+   </script>
+}
+<form method="post"class="form-control w-75">
+
+
+    <label asp-for="Id" class="form-control btn btn-primary m-2"></label>
+            <input asp-for="Id" class="form-control m-2" />
+            <span asp-validation-for="Id"></span>
+
+
+
+    <label asp-for="Name" class="form-control btn btn-primary m-2"></label>
+        <input asp-for="Name" class="form-control m-2" />
+            <span asp-validation-for="Name"></span>
+
+
+    <label asp-for="Level" class="form-control btn btn-primary m-2"></label>
+        <input asp-for="Level" class="form-control m-2" />
+            <span asp-validation-for="Level"></span>
+            <input type="submit" class="btn btn-primary m-2 w-25" value="Add Student" />
+   
+      
+ 
+</form>
