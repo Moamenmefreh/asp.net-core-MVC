@@ -16,44 +16,48 @@
         *@toastr.success('@TempData["message"]', 'Message')
     </script>
 }
-<table class="table border-2">
-    <thead>
-        <tr>
-            <th class="border text-center">Id</th>
-            <th class="border">Name</th>
-            <th class="border">Specialization</th>
-            <th class="border">Delete & Edit</th>
-
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+<div>
+    <table class="table border-2">
+        <caption><strong>All Teacher</strong></caption>
+        <thead>
             <tr>
-                <td class="border text-center">@item.Id</td>
-                <td class="border">@item.Name</td>
-                <td class="border">@item.Specialization</td>
-                <td class="border w-25">
-                    &nbsp;
-                    <a asp-controller="Staff" asp-action="DeleteTeacher" asp-route-id="@item.Id">
-                        <i class="bi bi-trash btn btn-danger btn-sm"></i>
-                    </a>
-
-                    &nbsp;
-                    &nbsp;
-                    &nbsp;
-
-                    <a asp-action="EditTeacher" asp-controller="Staff" asp-route-id="@item.Id">
-                        <i class="bi bi-pen btn btn-success btn-sm"></i>
-                    </a>
-
-                </td>
-
+                <th class="border text-center">Id</th>
+                <th class="border">Name</th>
+                <th class="border">Specialization</th>
+                <th class="border">Delete & Edit</th>
 
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="border text-center">@item.Id</td>
+                    <td class="border">@item.Name</td>
+                    <td class="border">@item.Specialization</td>
+                    <td class="border w-25">
+                        &nbsp;
+                        <a asp-controller="Staff" asp-action="DeleteTeacher" asp-route-id="@item.Id">
+                            <i class="bi bi-trash btn btn-danger btn-sm"></i>
+                        </a>
+
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+
+                        <a asp-action="EditTeacher" asp-controller="Staff" asp-route-id="@item.Id">
+                            <i class="bi bi-pen btn btn-success btn-sm"></i>
+                        </a>
+
+                    </td>
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
 
 
 
+
+</div>

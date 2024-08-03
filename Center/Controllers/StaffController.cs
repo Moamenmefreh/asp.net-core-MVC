@@ -1,4 +1,5 @@
-﻿using Center.Models;
+﻿using Center.dto;
+using Center.Models;
 using Center.Repository;
 using Microsoft.AspNetCore.Mvc;
 using NuGet.Protocol.Core.Types;
@@ -9,11 +10,15 @@ namespace Center.Controllers
     {
         private readonly Services<Student> _IrepositoryStudent;
         private readonly Services<Teacher> _Irepositoryteacher;
+        private readonly Services<MatrialsRecord> _IrepositoryMatrialsRecord;
 
-        public StaffController(Services<Student> _Irepository, Services<Teacher> _Irepositoryteacher)
+        public StaffController(Services<Student> _Irepository, 
+            Services<Teacher> _Irepositoryteacher,
+            Services<MatrialsRecord> _IrepositoryMatrialsRecord)
         {
             this._IrepositoryStudent = _Irepository;
             this._Irepositoryteacher = _Irepositoryteacher;
+            this._IrepositoryMatrialsRecord = _IrepositoryMatrialsRecord;
         }
 
         public IActionResult AllStudent()
@@ -83,10 +88,83 @@ namespace Center.Controllers
             TempData["message"] = "Student Edited Successfully";
             return RedirectToAction("AllStudent");
         }
+        [HttpGet]
+        public async Task<IActionResult>DatailsStudent(int id)
+        {
+            var st = _IrepositoryStudent.Details(id);
+            if (st == null)
+            {
+                TempData["Failed"] = "Sorry ! this student Not Found";
+                return View();
+            }
+            else
+            {
+                
 
-        /////////////////////////////////////////////////Teacher
-        ///
-        public IActionResult AllTeacher()
+                return View(st);
+            }
+
+           
+           
+        }
+        public async Task<IActionResult> RecordingOfMaterial()
+        {
+           
+
+                return View();
+            
+           
+        }
+        [HttpPost]
+        public async Task<IActionResult> RecordingOfMaterial(MatrialsRecord MRstudent)
+        {
+           var tablestudentId=_IrepositoryStudent.FindAsync(MRstudent.StudentId);
+            var tablestudentinMS = _IrepositoryMatrialsRecord.FindAsync(MRstudent.StudentId);
+            if (tablestudentId == null)
+            {
+                TempData["Failed"] = "Sorry ! Student did not Record";
+                return View();
+            }
+            else
+            {
+               
+                _IrepositoryMatrialsRecord.RecordingOfMaterials(MRstudent);
+                return RedirectToAction("DatailsStudent");
+            }
+        }
+     
+        public async Task<IActionResult> UpdateRecording()
+        {
+           
+
+                return View();
+            
+
+        }
+        [HttpPost]
+        public async Task<IActionResult> UpdateRecording(MatrialsRecord dto)
+        {
+          var student=_IrepositoryMatrialsRecord.FindAsync(dto.StudentId);
+
+            if (student == null)
+            {
+                TempData["Failed"] = "Sorry ! Student did not Record";
+                return View();
+            }
+            else
+            {
+               student.English=dto.English;
+                student.Physics=dto.Physics;
+                student.Arabic=dto.Arabic;
+                student.Biology=dto.Biology;
+                student.Math=dto.Math;
+                _IrepositoryMatrialsRecord.UpdateAsync(student);
+                return RedirectToAction("AllStudent");
+            }
+        }
+            /////////////////////////////////////////////////Teacher
+            ///
+            public IActionResult AllTeacher()
         {
             IEnumerable<Teacher> all = _Irepositoryteacher.All();
             return View(all);
@@ -112,7 +190,7 @@ namespace Center.Controllers
             }
         }
 
-        public IActionResult DeleteTeacher(int id)
+        public async  Task<IActionResult> DeleteTeacher(int id)
         {
             if (id == 0 || id != null)
             {

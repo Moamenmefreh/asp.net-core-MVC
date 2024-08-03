@@ -1,0 +1,42 @@
+﻿@model MatrialsRecord
+@{
+    ViewData["Title"] = "UpdateRecording";
+}  
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+@if (TempData["Failed"] != null)
+{
+    <script type="text/javascript">
+        toastr.error('@TempData["Failed"] ', 'Sorry !')
+    </script>
+}
+<form method="post" class="FormAll form-control w-50 ">
+    <div class="form-control m-1 row">
+        <label asp-for="StudentId"></label>
+        <input asp-for="StudentId" />
+    </div>
+    <div class="form-control m-1">
+        <label asp-for="Arabic"></label>
+        <input asp-for="Arabic" />
+    </div>
+    <div class="form-control m-1">
+        <label asp-for="English"></label>
+        <input asp-for="English" />
+    </div>
+    <div class="form-control m-1">
+        <label asp-for="Math"></label>
+        <input asp-for="Math" />
+    </div>
+    <div class="form-control m-1">
+        <label asp-for="Physics"></label>
+        <input asp-for="Physics" />
+    </div>
+    <div class="form-control m-1">
+        <label asp-for="Biology"></label>
+        <input asp-for="Biology" />
+    </div>
+    
+        <input type="submit" value="Update" class=" m-3 w-50 border-2 border-info"  />
+ 
+</form>

@@ -10,5 +10,6 @@ namespace Center.Models
         public string? Name { get; set; }
         [MaxLength(100)]
         public string? Specialization { get; set; }
+        public IEnumerable<Teacher>? Teachers { get; set; }
     }
 }

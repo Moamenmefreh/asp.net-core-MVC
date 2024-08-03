@@ -251,3 +251,4 @@ D:\Moamen\Center\Center\bin\Debug\net7.0\vi\Humanizer.resources.dll
 D:\Moamen\Center\Center\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
 D:\Moamen\Center\Center\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
 D:\Moamen\Center\Center\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
+D:\Moamen\Center\Center\obj\Debug\net7.0\Center.sourcelink.json

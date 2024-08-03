@@ -13,6 +13,8 @@ builder.Services.AddDbContext<AppDbContext>(option => option.UseSqlServer(
     ));
 builder.Services.AddTransient(typeof(Services<Student>),typeof(Services<Student>));
 builder.Services.AddTransient(typeof(Services<Teacher>),typeof(Services<Teacher>));
+builder.Services.AddTransient(typeof(Services<MatrialsRecord>), typeof(Services<MatrialsRecord>));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

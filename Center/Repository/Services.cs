@@ -1,5 +1,7 @@
 ﻿using Center.Data;
 using Center.IRepository;
+using Center.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace Center.Repository
 {
@@ -30,12 +32,33 @@ namespace Center.Repository
             
         }
 
+        public MatrialsRecord Details(int id)
+        {
+            var item = _context.MatrialsRecord.Find(id);
+            if(item != null)
+            {
+                return item;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
         public T FindAsync(int id)
         {
           var item=_context.Set<T>().Find(id);
-        if(item != null)
+       
             return item;
-            return null;
+        
+        }
+
+        public void RecordingOfMaterials(MatrialsRecord Entity)
+        {
+         
+            _context.MatrialsRecord.Add(Entity);
+            _context.SaveChanges();
+           
         }
 
         public void UpdateAsync(T Entity)
@@ -43,5 +66,6 @@ namespace Center.Repository
             _context.Set<T>().Update(Entity);
             _context.SaveChanges();
         }
+     
     }
 }

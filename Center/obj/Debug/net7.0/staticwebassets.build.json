@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dpm2vUrx4EcBXMJum4p+noSEZcXTATchLl/0iUA9VO8=",
+  "Hash": "VqIjuuQOYawqP0rhbiHErbVLmKB62FqtNkWUK7fpxR8=",
   "Source": "Center",
   "BasePath": "_content/Center",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Moamen\\Center\\Center\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Center.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Moamen\\Center\\Center\\wwwroot\\css\\AllCss.css",
+      "SourceId": "Center",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Moamen\\Center\\Center\\wwwroot\\",
+      "BasePath": "_content/Center",
+      "RelativePath": "css/AllCss.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AllCss.css"
     },
     {
       "Identity": "D:\\Moamen\\Center\\Center\\wwwroot\\css\\Home.css",

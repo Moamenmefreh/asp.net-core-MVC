@@ -1,0 +1,34 @@
+﻿@model MatrialsRecord
+@{
+    ViewData["Title"] = "DatailsStudent";
+}
+
+<form method="post" class="form-control w-75 FormAll">
+    <div class=" m-1">
+        <label asp-for="StudentId"></label>
+        <input asp-for="StudentId" />
+    </div>
+    <div class=" m-1 row">
+        <label asp-for="Arabic"></label>
+        <input asp-for="Arabic" />
+    </div>
+    <div class=" m-1 row">
+        <label asp-for="English"></label>
+        <input asp-for="English" />
+    </div>
+    <div class=" m-1 row">
+        <label asp-for="Physics"></label>
+        <input asp-for="Physics" />
+
+    </div>
+    <div class=" m-1 row">
+        <label asp-for="Biology"></label>
+        <input asp-for="Biology" />
+    </div>
+    <div class="m-1 row">
+        <label asp-for="Math"></label>
+        <input asp-for="Math" />
+    </div>
+
+</form>
+

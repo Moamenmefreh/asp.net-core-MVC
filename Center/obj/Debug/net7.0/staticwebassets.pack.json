@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Images\\p.jpeg"
     },
     {
+      "Id": "D:\\Moamen\\Center\\Center\\wwwroot\\css\\AllCss.css",
+      "PackagePath": "staticwebassets\\css\\AllCss.css"
+    },
+    {
       "Id": "D:\\Moamen\\Center\\Center\\wwwroot\\css\\Home.css",
       "PackagePath": "staticwebassets\\css\\Home.css"
     },
